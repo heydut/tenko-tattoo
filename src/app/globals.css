@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-title font-extrabold text-zinc-700;
+  }
+  h1 {
+    @apply text-6xl max-md:text-5xl;
+  }
+  h2 {
+    @apply text-5xl max-md:text-4xl;
+  }
+  h3 {
+    @apply text-4xl max-md:text-3xl;
+  }
+  h4 {
+    @apply text-3xl max-md:text-2xl;
+  }
+  h5 {
+    @apply text-2xl max-md:text-xl;
+  }
+  h6 {
+    @apply font-sans text-red-600 uppercase tracking-widest;
+  }
+  p, input {
+    @apply font-sans text-zinc-500 leading-8;
+  }
+  ::selection {
+    @apply text-white bg-red-600;
+  }
+  .absolute-center {
+    @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+  .my-transition {
+    @apply transition-all ease-in-out duration-300;
+  }
+}
+
+*,*:focus,*:hover{
+  outline:none;
+    scroll-behavior: smooth !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
