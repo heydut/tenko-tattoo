@@ -12,7 +12,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       sans: ["Heebo", "sans-serif"],
-      title: ["Poppins", "sans-serif"],
+      title: ["Quicksand", "sans-serif"],
     },
   },
   plugins: [],
