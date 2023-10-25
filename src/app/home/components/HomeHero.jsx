@@ -11,7 +11,7 @@ export default function HomeHero() {
         alt="Background image"
         width={1000}
         height={500}
-        className="absolute z-0 w-full h-[100vh] object-cover opacity-0"
+        className="absolute z-0 w-full h-[100vh] object-cover opacity-10"
       />
       <main className="relative z-10 margin-x margin-y flex flex-col items-center text-center">
         <Logo css="h-64 mb-10" />
