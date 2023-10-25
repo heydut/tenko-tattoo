@@ -1,4 +1,9 @@
 import "./globals.css";
+import "swiper/css";
+import Footer from "@/components/Footer";
+
+import MyNavbar from "@/components/Navbar";
+import NextUI from "@/hooks/NextUI";
 
 export const metadata = {
   title: "Tenko Tattoo",
@@ -9,8 +14,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-[#333132]">
-      <body>{children}</body>
+    <html lang="en">
+      <body className="bg-[#333132]">
+        <NextUI>
+          <MyNavbar />
+          {children}
+          <Footer />
+        </NextUI>
+      </body>
     </html>
   );
 }
