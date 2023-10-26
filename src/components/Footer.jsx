@@ -8,7 +8,7 @@ import { DataStudio } from "@/data/DataStudio";
 const navigation = {
   studio: [
     { name: "About our studio", href: "#" },
-    { name: "Bookings", href: "#" },
+    { name: "Enquiries", href: "#" },
     { name: "Contact", href: "#" },
   ],
   artists: [

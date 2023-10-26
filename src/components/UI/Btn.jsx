@@ -19,7 +19,7 @@ export default function Btn({ href, text, target, outline }) {
         }`}
       ></span>
       <span
-        className={`relative w-full text-left text-neutral-100 transition-colors duration-200 ease-in-out ${
+        className={`relative w-full tracking-wide text-left text-neutral-100 transition-colors duration-200 ease-in-out ${
           outline ? "" : "group-hover:text-[#ed028c]"
         }`}
       >

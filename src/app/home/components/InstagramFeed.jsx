@@ -16,7 +16,7 @@ export default async function InstagramFeed() {
           target="_blank"
           className="relative group overflow-hidden"
         >
-          <div className="absolute z-20 h-full w-full flex items-center justify-center opacity-0 group-hover:opacity-100 my-transition bg-neutral-800/70">
+          <div className="absolute z-20 h-full w-full flex items-center justify-center opacity-0 group-hover:opacity-100 my-transition bg-neutral-900/90">
             <FaInstagram className="h-20 w-auto text-neutral-300" />
           </div>
           <div>
