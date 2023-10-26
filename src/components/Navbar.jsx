@@ -10,7 +10,7 @@ export default function MyNavbar() {
     <Navbar
       shouldHideOnScroll
       position="static"
-      className="bg-[#333132]/80"
+      className="bg-[#333132]/30 py-2"
       maxWidth="full"
     >
       <NavbarContent className="margin-x">

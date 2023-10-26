@@ -16,7 +16,8 @@ export default function Logo({ black, css }) {
           alt="Tenko Tattoo Logo"
           width={400}
           height={400}
-          className={`object-cover ${css} w-auto`}
+          className={`object-cover ${css} w-auto select-none`}
+          draggable={false}
         />
       </Link>
     </main>
