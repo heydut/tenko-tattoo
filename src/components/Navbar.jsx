@@ -35,7 +35,7 @@ export default function MyNavbar() {
           >
             Contact
           </Link>
-          <Btn text="Book now" href="/booking" />
+          <Btn text="Enquiries" href="/booking" />
         </div>
       </NavbarContent>
     </Navbar>

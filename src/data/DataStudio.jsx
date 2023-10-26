@@ -8,4 +8,6 @@ export const DataStudio = {
   email: "",
   instagram: "@tenkotattoo",
   instagramURL: "https://www.instagram.com/tenkotattoo/",
+  facebook: "",
+  facebookURL: "https://www.facebook.com/tenkotattoo",
 };

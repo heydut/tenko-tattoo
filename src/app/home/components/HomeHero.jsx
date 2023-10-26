@@ -32,7 +32,7 @@ export default function HomeHero() {
           heavens.
         </h5>
         <div className="flex gap-4">
-          <Btn text="Book now" />
+          <Btn text="Enquiries" />
           <Btn text="About our studio" outline />
         </div>
         {/* <h5 className="relative z-20 w-2/3 text-3xl font-medium tracking-normal">
