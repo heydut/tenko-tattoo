@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Btn from "./UI/Btn";
-import NavBanner from "./NavBanner";
 import { Navbar, NavbarContent } from "@nextui-org/react";
 
 // ✨ //////////////////////////////
