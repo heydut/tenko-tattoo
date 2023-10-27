@@ -12,13 +12,13 @@ const navigation = {
     { name: "Contact", href: "/contact" },
   ],
   artists: [
-    { name: "DorisuTattoo", href: "artists/dorisu-tattoo" },
+    { name: "DorisuTattoo", href: "/artists/dorisu-tattoo" },
     { name: "Join our team", href: "/join-our-team" },
   ],
   important: [
     { name: "Tattoo aftercare", href: "/tattoo-aftercare" },
-    { name: "Terms & conditions", href: "#" },
-    { name: "Cookies policy", href: "#" },
+    { name: "Terms & conditions", href: "/terms-and-conditions" },
+    { name: "Cookies policy", href: "/cookies-policy" },
   ],
 
   social: [
