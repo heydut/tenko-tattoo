@@ -37,7 +37,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="relative z-50">
       <div className="margin-x pt-14 pb-7">
         <div className="flex items-start max-md:flex-col max-md:items-center max-md:gap-16 ">
           <div className="">
