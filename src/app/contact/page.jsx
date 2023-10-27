@@ -5,6 +5,14 @@ import ContactWorkingHours from "./components/ContactWorkingHours";
 
 // ✨ //////////////////////////////
 
+export const metadata = {
+  title: "Get in Touch with Tenko Tattoo",
+  description:
+    "Have questions or ideas? Reach out to us through our contact page. We're here to make your tattoo experience extraordinary!",
+};
+
+// ✨ //////////////////////////////
+
 export default function Contact() {
   return (
     <main>

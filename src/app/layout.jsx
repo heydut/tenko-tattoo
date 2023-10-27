@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import MyNavbar from "@/components/Navbar";
 import NextUI from "@/hooks/NextUI";
 import NavBanner from "@/components/NavBanner";
+import { AOSinit } from "@/hooks/AOSinit";
 
 export const metadata = {
   title: "Tenko Tattoo",
@@ -16,8 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="">
         <NextUI>
+          <AOSinit />
           <NavBanner />
           <MyNavbar />
           {children}

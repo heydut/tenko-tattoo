@@ -3,6 +3,14 @@ import BookingForm from "./components/BookingForm";
 
 // ✨ //////////////////////////////
 
+export const enquiriesMetadata = {
+  title: "Enquiries | Tenko Tattoo",
+  description:
+    "Have questions, ideas, or ready to book your tattoo session? Reach out to us through our enquiries page. We're here to guide you through an extraordinary tattoo experience at Tenko!",
+};
+
+// ✨ //////////////////////////////
+
 export default function Booking() {
   return (
     <main className="relative">

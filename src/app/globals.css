@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Mabook";
+  src: url("/fonts/Mabook.otf");
+}
 
 @tailwind base;
 @tailwind components;
@@ -11,28 +16,34 @@
   body {
     @apply bg-neutral-900;
   }
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-title font-light tracking-tight text-neutral-100 uppercase;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-title tracking-tight text-neutral-100 uppercase;
   }
   h1 {
-    @apply text-6xl max-md:text-5xl;
+    @apply font-medium text-5xl max-md:text-4xl;
   }
   h2 {
-    @apply text-5xl max-md:text-4xl;
+    @apply font-medium text-4xl max-md:text-3xl;
   }
   h3 {
-    @apply text-4xl max-md:text-3xl;
+    @apply font-medium text-3xl max-md:text-2xl;
   }
   h4 {
-    @apply text-3xl max-md:text-2xl;
+    @apply font-medium text-2xl max-md:text-xl;
   }
   h5 {
-    @apply text-2xl max-md:text-xl;
+    @apply font-medium text-xl max-md:text-lg;
   }
   h6 {
-    @apply font-semibold text-xl max-md:text-lg ;
+    @apply font-semibold text-lg max-md:text-base;
   }
-  p, input {
+  p,
+  input {
     @apply font-sans text-neutral-400 leading-8;
   }
   ::selection {
@@ -52,19 +63,25 @@
   }
 }
 
-*,*:focus,*:hover{
-  outline:none;
-    scroll-behavior: smooth !important;
+.doris {
+  font-family: "Mabook", sans-serif;
+  text-transform: none !important;
+  letter-spacing: 0px !important;
+}
+
+*,
+*:focus,
+*:hover {
+  outline: none;
+  scroll-behavior: smooth !important;
 }
 
 html {
   scroll-behavior: smooth !important;
-
 }
 
 body {
   overflow-x: hidden !important;
-
 }
 
 .my-overflow {

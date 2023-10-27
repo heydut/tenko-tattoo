@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+
 import Btn from "./UI/Btn";
 import {
   Navbar,
@@ -8,6 +8,7 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   NavbarMenuToggle,
+  Link,
 } from "@nextui-org/react";
 import { useState } from "react";
 
@@ -18,45 +19,16 @@ export default function MyNavbar() {
   const menuItems = [
     { name: "Home", href: "/" },
     { name: "Artists", href: "/artists" },
-    { name: "Enquiries", href: "#" },
     { name: "About our studio", href: "/about" },
-    { name: "Tattoo aftercare", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Enquiries", href: "/enquiries" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
-    // <Navbar shouldHideOnScroll className="bg-[#333132]/30" maxWidth="full">
-    //   <NavbarContent className="margin-x">
-    //     <NavbarItem className="flex items-center gap-10">
-    //       <Link
-    //         href="/"
-    //         className="font-title uppercase font-semibold tracking-wide text-neutral-100  hover:text-[#ed028c] my-transition"
-    //       >
-    //         Home
-    //       </Link>
-    //       <Link
-    //         href="/artists"
-    //         className="font-title uppercase font-semibold tracking-wide text-neutral-100  hover:text-[#ed028c] my-transition"
-    //       >
-    //         Artists
-    //       </Link>
-    //     </NavbarItem>
-    //     <NavbarItem className="flex items-center gap-10 w-full justify-end">
-    //       <Link
-    //         href="/contact"
-    //         className="font-title uppercase font-semibold tracking-wide text-neutral-100  hover:text-[#ed028c] my-transition"
-    //       >
-    //         Contact
-    //       </Link>
-    //       <Btn text="ENQUIRIES" href="/enquiries" />
-    //     </NavbarItem>
-    //   </NavbarContent>
-    // </Navbar>
-
     <Navbar
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="bg-[#333132]/30 "
+      className="bg-neutral-800/40 py-2 z-[9999]"
       shouldHideOnScroll
       maxWidth="full"
     >
@@ -79,7 +51,7 @@ export default function MyNavbar() {
             Artists
           </Link>
         </NavbarItem>
-        <NavbarItem className="flex items-center gap-10 w-full justify-end">
+        <NavbarItem className="flex items-center gap-10 w-full justify-end max-md:hidden">
           <Link
             href="/contact"
             className="max-md:hidden font-title uppercase font-semibold tracking-wide text-neutral-100  hover:text-[#ed028c] my-transition"

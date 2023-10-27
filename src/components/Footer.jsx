@@ -12,7 +12,7 @@ const navigation = {
     { name: "Contact", href: "/contact" },
   ],
   artists: [
-    { name: "DorisuTattoo", href: "#" },
+    { name: "DorisuTattoo", href: "artists/dorisu-tattoo" },
     { name: "Join our team", href: "/join-our-team" },
   ],
   important: [

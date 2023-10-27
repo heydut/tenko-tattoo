@@ -8,6 +8,13 @@ import HomeVideo from "./home/components/HomeVideo";
 
 // ✨ //////////////////////////////
 
+export const metadata = {
+  title: "Welcome to Tenko Tattoo",
+  description: "Tenko Tattoo | We are a Tatto Studio based in Preston, UK",
+};
+
+// ✨ //////////////////////////////
+
 export default function Home() {
   return (
     <main>

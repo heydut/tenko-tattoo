@@ -9,7 +9,7 @@ import { DataStudio } from "@/data/DataStudio";
 export default function HomeCTASocial() {
   return (
     <main>
-      <section className="relative">
+      <section className="relative z-20 bg-neutral-900">
         {/* <Gradient left xl />
         <Image
           src="/placeholder.png"
