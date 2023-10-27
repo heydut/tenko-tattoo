@@ -33,7 +33,7 @@
     @apply font-semibold tracking-wide ;
   }
   p, input {
-    @apply font-sans text-neutral-300 leading-8;
+    @apply font-sans text-neutral-400 leading-8;
   }
   ::selection {
     @apply text-white bg-[#ed028c];
