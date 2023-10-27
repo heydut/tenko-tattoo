@@ -7,16 +7,16 @@ import { DataStudio } from "@/data/DataStudio";
 
 const navigation = {
   studio: [
-    { name: "About our studio", href: "#" },
-    { name: "Enquiries", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "About our studio", href: "/about" },
+    { name: "Enquiries", href: "/enquiries" },
+    { name: "Contact", href: "/contact" },
   ],
   artists: [
     { name: "DorisuTattoo", href: "#" },
-    { name: "Join our team", href: "#" },
+    { name: "Join our team", href: "/join-our-team" },
   ],
   important: [
-    { name: "Tattoo aftercare", href: "#" },
+    { name: "Tattoo aftercare", href: "/tattoo-aftercare" },
     { name: "Terms & conditions", href: "#" },
     { name: "Cookies policy", href: "#" },
   ],
