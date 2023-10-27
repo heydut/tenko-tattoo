@@ -8,11 +8,13 @@ import ContactWorkingHours from "./components/ContactWorkingHours";
 export default function Contact() {
   return (
     <main>
-      Contact
-      <ContactForm />
-      <ContactWorkingHours />
-      <ContactMap />
-      <ContactFAQ />
+      <div className="margin-x margin-y">
+        Contact
+        <ContactForm />
+        <ContactWorkingHours />
+        <ContactMap />
+        <ContactFAQ />
+      </div>
     </main>
   );
 }

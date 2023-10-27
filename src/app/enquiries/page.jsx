@@ -39,7 +39,7 @@ export default function Booking() {
           className="w-[50vw] h-[100vh] object-cover"
         />
       </div>
-      <section className="margin-x margin-y">
+      <section className="relative z-30 margin-x margin-y">
         <BookingForm />
       </section>
     </main>
