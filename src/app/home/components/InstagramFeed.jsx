@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 export default async function InstagramFeed() {
   const instagram = await getInstagramPosts();
   return (
-    <div className="flex">
+    <div className="flex items-center">
       {instagram.data.slice(0, 4).map((post) => (
         <Link
           href={post.permalink}
