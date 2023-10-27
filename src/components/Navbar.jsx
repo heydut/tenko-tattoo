@@ -1,19 +1,14 @@
 import Link from "next/link";
 import Btn from "./UI/Btn";
-import { Navbar, NavbarContent } from "@nextui-org/react";
+import { Navbar, NavbarContent, NavbarItem } from "@nextui-org/react";
 
 // ✨ //////////////////////////////
 
 export default function MyNavbar() {
   return (
-    <Navbar
-      shouldHideOnScroll
-      position="static"
-      className="bg-[#333132]/30 py-2"
-      maxWidth="full"
-    >
+    <Navbar shouldHideOnScroll className="bg-[#333132]/30" maxWidth="full">
       <NavbarContent className="margin-x">
-        <div className="flex items-center gap-10">
+        <NavbarItem className="flex items-center gap-10">
           <Link
             href="/"
             className="font-title uppercase font-semibold tracking-wide text-neutral-100  hover:text-[#ed028c] my-transition"
@@ -26,8 +21,8 @@ export default function MyNavbar() {
           >
             Artists
           </Link>
-        </div>
-        <div className="flex items-center gap-10 w-full justify-end">
+        </NavbarItem>
+        <NavbarItem className="flex items-center gap-10 w-full justify-end">
           <Link
             href="/contact"
             className="font-title uppercase font-semibold tracking-wide text-neutral-100  hover:text-[#ed028c] my-transition"
@@ -35,7 +30,7 @@ export default function MyNavbar() {
             Contact
           </Link>
           <Btn text="ENQUIRIES" href="/enquiries" />
-        </div>
+        </NavbarItem>
       </NavbarContent>
     </Navbar>
   );

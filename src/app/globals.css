@@ -59,10 +59,13 @@
 
 html {
   scroll-behavior: smooth !important;
-  overflow-x: hidden !important;
+
 }
 
 body {
-  overflow-x: hidden !important;
+
 }
 
+.my-overflow {
+  overflow-x: hidden !important;
+}

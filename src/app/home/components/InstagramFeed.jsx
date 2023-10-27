@@ -24,7 +24,7 @@ export default async function InstagramFeed() {
               (post.media_type === "CAROUSEL_ALBUM" && post.media_url)) && (
               <Image
                 src={post.media_url}
-                alt={post.caption}
+                alt={post.caption || "Instagram post"}
                 width={500}
                 height={500}
                 className="group-hover:blur-[2px] my-transition aspect-square object-cover"
@@ -37,6 +37,7 @@ export default async function InstagramFeed() {
                 width={500}
                 height={500}
                 className="aspect-square object-cover"
+                alt={post.caption || "Instagram post"}
               >
                 <source src={post.media_url} type="video/mp4" />
                 Your browser does not support the video tag.
