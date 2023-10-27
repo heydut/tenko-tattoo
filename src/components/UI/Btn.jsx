@@ -5,7 +5,7 @@ export default function Btn({ href, text, target, outline }) {
     <a
       href={href}
       target={target}
-      className={`relative cursor-pointer inline-flex items-center justify-start px-5 py-3 overflow-hidden font-medium transition-all group
+      className={`relative cursor-pointer inline-flex items-center justify-start px-5 max-sm:px-4 py-3 max-sm:py-2 overflow-hidden font-medium transition-all group
       ${
         outline
           ? "border border-neutral-100"
@@ -19,7 +19,7 @@ export default function Btn({ href, text, target, outline }) {
         }`}
       ></span>
       <span
-        className={`relative w-full tracking-wide text-left text-neutral-100 transition-colors duration-200 ease-in-out ${
+        className={`relative w-full tracking-wide text-left max-sm:text-xs text-neutral-100 transition-colors duration-200 ease-in-out ${
           outline ? "" : "group-hover:text-[#ed028c]"
         }`}
       >
