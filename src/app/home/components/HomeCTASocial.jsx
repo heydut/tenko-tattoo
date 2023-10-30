@@ -31,7 +31,7 @@ export default function HomeCTASocial() {
           />
         </div>
       </section>
-      <InstagramFeed />
+      {/* <InstagramFeed /> */}
     </main>
   );
 }

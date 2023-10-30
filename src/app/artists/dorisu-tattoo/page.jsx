@@ -71,7 +71,7 @@ export default function DorisuTattoo() {
                 />
               </div>
               <Image
-                src="/images/Temporary Logo.png"
+                src="/images/logos/Dorisu (white).svg"
                 width={500}
                 height={500}
                 alt="Dorisu Logo"
@@ -141,8 +141,17 @@ export default function DorisuTattoo() {
             </div>
           </div>
         </div>
-        <div className="pt-32">
-          <ArtistInstagramFeed />
+        <div className="">
+          {/* <ArtistInstagramFeed /> */}
+          <script
+            src="https://static.elfsight.com/platform/platform.js"
+            data-use-service-core
+            defer
+          ></script>
+          <div
+            className="elfsight-app-3df43858-5983-4dcd-9237-e64f98bd6594"
+            data-elfsight-app-lazy
+          ></div>
           <div className="w-full flex justify-between mt-8">
             <Link
               href={doris.instagramURL}

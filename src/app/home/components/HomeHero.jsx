@@ -43,10 +43,10 @@ export default function HomeHero() {
         </h5>
         <div className="flex gap-4">
           <div data-aos="zoom-in-right">
-            <Btn text="Enquiries" />
+            <Btn text="Enquiries" href="/enquiries" />
           </div>
           <div data-aos="zoom-in-left">
-            <Btn text="About our studio" outline />
+            <Btn text="About our studio" href="/about" outline />
           </div>
         </div>
         {/* <h5 className="relative z-20 w-2/3 text-3xl font-medium tracking-normal">
