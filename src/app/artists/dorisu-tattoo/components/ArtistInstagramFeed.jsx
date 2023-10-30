@@ -1,8 +1,4 @@
 import Instagrampost from "@/components/UI/InstagramPost";
-import getInstagramPosts from "@/hooks/getInstagramPosts";
-import Image from "next/image";
-import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
 
 // ✨ //////////////////////////////
 

@@ -1,3 +1,5 @@
+import "../../../snow.css";
+
 // ✨ //////////////////////////////
 
 export default async function SnowBackground() {
