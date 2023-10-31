@@ -1,5 +1,3 @@
-"use client";
-import Btn from "@/components/UI/Btn";
 import { DataFAQ } from "@/data/DataFAQ";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import Image from "next/image";
