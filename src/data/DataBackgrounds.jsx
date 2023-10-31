@@ -31,7 +31,12 @@ export const DataBackgrounds = [
     alt: "Background image",
   },
   { id: 6, page: "", src: "/placeholder.png", alt: "Background image" },
-  { id: 7, page: "", src: "/placeholder.png", alt: "Background image" },
+  {
+    id: 7,
+    page: "faq / main page",
+    src: "/Tattoo Studio/6.png",
+    alt: "Background image",
+  },
   {
     id: 8,
     page: "artists / main page",
