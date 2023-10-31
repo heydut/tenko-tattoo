@@ -59,15 +59,17 @@
     @apply py-24 max-sm:py-16;
   }
   .margin-x {
-    @apply px-6 mx-auto max-w-7xl lg:px-8;
+    @apply px-6 lg:px-8 mx-auto max-w-7xl;
   }
-}
+
+ }
 
 .doris {
   font-family: "Mabook", sans-serif;
   text-transform: none !important;
   letter-spacing: 0px !important;
 }
+
 
 .eui-widget-title, .es-widget-title, .eapps-instagram-feed-title,
 .eapps-instagram-feed-posts-grid-load-more-container, .eapps-instagram-feed-posts-grid-load-more-enabled {

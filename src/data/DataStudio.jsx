@@ -5,7 +5,7 @@ export const DataStudio = {
   city: "Preston",
   postcode: "PR1 2BA",
   phone: "0123456789",
-  email: "",
+  email: "email?",
   instagram: "@tenkotattoo",
   instagramURL: "https://www.instagram.com/tenkotattoo/",
   facebook: "",

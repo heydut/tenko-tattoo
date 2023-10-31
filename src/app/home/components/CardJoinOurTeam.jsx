@@ -29,11 +29,11 @@ export default function CardJoinOurTeam() {
               </h3>
             </div>
             <Image
-              src="/images/artists/2vgNsO8ej.png"
+              src="/images/artists/MK108A23M8_2.png"
               width={400}
               height={400}
               alt="Artist picture"
-              className="h-96 w-96 object-cover"
+              className="h-96 w-96 object-cover grayscale"
             />
           </div>
 
