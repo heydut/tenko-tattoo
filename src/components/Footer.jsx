@@ -10,6 +10,7 @@ const navigation = {
     { name: "About our studio", href: "/about" },
     { name: "Enquiries", href: "/enquiries" },
     { name: "Contact", href: "/contact" },
+    { name: "FAQ", href: "/faq" },
   ],
   artists: [
     { name: "DorisuTattoo", href: "/artists/dorisu-tattoo" },

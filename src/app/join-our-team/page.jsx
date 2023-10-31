@@ -20,6 +20,7 @@ export default function JoinOurTeam() {
         title="Join our team"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptatem voluptate quos dolorum quae voluptatibus quas."
       />
+      <div className="h-[200vh]" />
     </main>
   );
 }

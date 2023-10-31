@@ -5,6 +5,8 @@ import Link from "next/link";
 import SnowBackground from "./components/SnowBackground";
 import { ArrowLeftIcon } from "@heroicons/react/20/solid";
 import ArtistHero from "./components/ArtistHero";
+import { DataBackgrounds } from "@/data/DataBackgrounds";
+import PageBackground from "@/components/UI/PageBackground";
 
 // ✨ //////////////////////////////
 
@@ -19,10 +21,11 @@ export const metadata = {
 export default function DorisuTattoo() {
   const doris = DataArtist[0];
   return (
-    <main>
+    <main className="relative">
       <SnowBackground />
+      <PageBackground data={DataBackgrounds[20]} />
 
-      <div className="relative z-10 margin-x pb-24 max-sm:pb-16 space-y-20">
+      <div className="relative z-10 margin-x margin-y space-y-20">
         <div className="flex flex-col items-start">
           <Link
             href="/artists"
