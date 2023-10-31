@@ -3,6 +3,7 @@ import InstagramFeed from "./InstagramFeed";
 import Gradient from "@/components/UI/Gradient";
 import Image from "next/image";
 import { DataStudio } from "@/data/DataStudio";
+import PageHeader from "@/components/UI/PageHeader";
 
 // ✨ //////////////////////////////
 
@@ -18,12 +19,13 @@ export default function HomeCTASocial() {
           height={500}
           className="absolute z-0 w-full h-[100%] object-cover"
         /> */}
-        <div className="relative z-10 margin-x margin-y space-y-10">
-          <h1>
-            Follow us on
-            <br /> Instagram
-          </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <PageHeader
+          title1="Follow us on"
+          title2="Instagram"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          sided
+        />
+        <div className="relative z-10 margin-x -mt-14 space-y-10">
           <Btn
             text={DataStudio.instagram}
             href={DataStudio.instagramURL}

@@ -2,7 +2,7 @@ export const DataArtist = [
   {
     name: "Doris",
     artistPage: "/artists/dorisu-tattoo",
-    image: "/images/artists/Doris picture 3.png",
+    image: "/images/artists/Doris picture.png",
     logo: "/images/logos/Dorisu (white).svg",
     facebook: "@dorisu_tattoo",
     facebookURL: "https://www.facebook.com/dorisu_tattoo",

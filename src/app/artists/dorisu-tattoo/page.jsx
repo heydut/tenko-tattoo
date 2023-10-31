@@ -7,6 +7,7 @@ import { ArrowLeftIcon } from "@heroicons/react/20/solid";
 import ArtistHero from "./components/ArtistHero";
 import { DataBackgrounds } from "@/data/DataBackgrounds";
 import PageBackground from "@/components/UI/PageBackground";
+import Script from "next/script";
 
 // ✨ //////////////////////////////
 
@@ -39,11 +40,11 @@ export default function DorisuTattoo() {
         </div>
         <div className="">
           {/* <ArtistInstagramFeed /> */}
-          <script
+          <Script
             src="https://static.elfsight.com/platform/platform.js"
             data-use-service-core
             defer
-          ></script>
+          />
           <div
             className="elfsight-app-3df43858-5983-4dcd-9237-e64f98bd6594"
             data-elfsight-app-lazy

@@ -8,31 +8,31 @@ export default function CardArtist({ data }) {
     <div className="flex flex-col gap-4 items-center">
       <Link
         href={data.artistPage}
-        className="my-transition hover:scale-95 group flex flex-col items-center justify-center gap-6"
+        className="w-full my-transition hover:scale-95 group flex flex-col items-center justify-center gap-6"
       >
-        <div className="flex flex-col gap-4 p-4 border border-neutral-500 group-hover:border-[#ed028c]/50 bg-neutral-600/10 hover:bg-neutral-600/20 my-transition ">
+        <div className="w-full flex flex-col gap-4 p-4 border border-neutral-500 group-hover:border-[#ed028c]/50 bg-neutral-600/10 hover:bg-neutral-600/20 my-transition ">
           <div className="relative overflow-hidden">
             <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-[#ed028c]/20 backdrop-blur-sm opacity-0 group-hover:opacity-100 my-transition">
-              <h3 className="tracking-wide font-bold text-center bg-[#ed028c]/70 px-3 py-1">
+              <h3 className="max-sm:text-base tracking-wide font-bold text-center bg-[#ed028c]/70 px-3 py-1">
                 Find
               </h3>
-              <h3 className="tracking-wide font-bold text-center bg-[#ed028c]/70 px-3 py-1">
+              <h3 className="max-sm:text-base tracking-wide font-bold text-center bg-[#ed028c]/70 px-3 py-1">
                 More about
               </h3>
-              <h3 className="tracking-wide font-bold text-center bg-[#ed028c]/70 px-3 py-1">
+              <h3 className="max-sm:text-base tracking-wide font-bold text-center bg-[#ed028c]/70 px-3 py-1">
                 {data.name}
               </h3>
             </div>
             <Image
               src={data.image}
-              width={400}
+              width={500}
               height={400}
               alt="Artist picture"
-              className="h-96 w-96 object-cover"
+              className="h-96 w-full max-lg:h-80 max-lg:w-full max-md:h-60 max-sm:h-72 max-md:w-full object-cover"
             />
           </div>
 
-          <div className="flex gap-2 items-center">
+          <div className="max-md:hidden max-sm:flex flex flex-wrap gap-2 items-center">
             {data.tags.map((tag) => (
               <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-light tracking-wide text-white ring-1 ring-inset ring-neutral-800 group-hover:ring-neutral-700 my-transition">
                 <svg
@@ -47,7 +47,7 @@ export default function CardArtist({ data }) {
             ))}
           </div>
         </div>
-        <h3 className="tracking-wide my-transition group-hover:text-[#ed028c]">
+        <h3 className="max-sm:text-lg tracking-wide my-transition group-hover:text-[#ed028c]">
           {" "}
           {data.name}
         </h3>

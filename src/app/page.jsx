@@ -1,5 +1,6 @@
 import HomeAbout from "./home/components/HomeAbout";
 import HomeCTASocial from "./home/components/HomeCTASocial";
+import HomeGallery from "./home/components/HomeGallery";
 import HomeHero from "./home/components/HomeHero";
 import HomeServices from "./home/components/HomeServices";
 import HomeTeam from "./home/components/HomeTeam";
@@ -22,6 +23,7 @@ export default function Home() {
       <HomeAbout />
       <HomeServices />
       <HomeTeam />
+      <HomeGallery />
       <HomeVideo />
       <HomeTestimonial />
       <HomeCTASocial />

@@ -94,3 +94,7 @@ body {
 .my-overflow {
   overflow-x: hidden !important;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #ed028c !important;
+}
