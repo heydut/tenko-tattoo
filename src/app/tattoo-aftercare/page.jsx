@@ -1,6 +1,17 @@
+import PageBackground from "@/components/UI/PageBackground";
+import PageHeader from "@/components/UI/PageHeader";
+import { DataBackgrounds } from "@/data/DataBackgrounds";
 import Image from "next/image";
 import Link from "next/link";
 import { HiOutlineSparkles } from "react-icons/hi2";
+
+// ✨ //////////////////////////////
+
+export const metadata = {
+  title: "Aftercare | Tenko Tattoo",
+  description:
+    "Is important to take care of your tattoo after getting it done. Here you can find more about the aftercare process and how to take care of your tattoo.",
+};
 
 // ✨ //////////////////////////////
 
@@ -129,23 +140,12 @@ export default function TattooAftercare() {
 
   return (
     <main className="relative">
-      <div className="absolute z-0 w-full -mt-16">
-        <Image
-          src="/Tattoo Studio/1.png"
-          alt="Background image"
-          width={1000}
-          height={500}
-          className="w-full h-[56rem] object-cover opacity-40"
-          draggable={false}
-        />
-        <div className="absolute top-0 left-0 z-10 w-full h-[56rem] bg-gradient-to-t from-neutral-900 to-transparent" />
-      </div>
+      <PageBackground data={DataBackgrounds[9]} />
+      <PageHeader
+        title="Tattoo aftercare"
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptatem voluptate quos dolorum quae voluptatibus quas."
+      />
       <div className="relative z-20 margin-x margin-y flex flex-col items-center justify-center gap-20">
-        <div className="mt-4 flex flex-col items-center text-center">
-          <h1>Tattoo Aftercare</h1>
-          <div className="h-1 w-20 mt-4 bg-[#ed028c] rounded-full" />
-        </div>
-
         <div className="w-full grid gap-10 grid-cols-3 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
           {tattooAftercare.map((item, i) => (
             <div

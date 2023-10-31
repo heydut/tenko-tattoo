@@ -6,6 +6,14 @@ import Image from "next/image";
 
 // ✨ //////////////////////////////
 
+export const metadata = {
+  title: "FAQ | Tenko Tattoo",
+  description:
+    "We always try to make your life easier. Here you can find answers to the most common questions we get asked.",
+};
+
+// ✨ //////////////////////////////
+
 export default function FAQ() {
   return (
     <main className="relative">

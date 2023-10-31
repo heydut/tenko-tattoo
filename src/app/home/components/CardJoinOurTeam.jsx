@@ -33,7 +33,7 @@ export default function CardJoinOurTeam() {
               width={400}
               height={400}
               alt="Artist picture"
-              className="h-96 w-96 object-cover grayscale"
+              className="h-96 w-96 object-cover "
             />
           </div>
 
