@@ -8,6 +8,7 @@ export default async function ArtistGallery({ doris }) {
       <div className="margin-x flex gap-6 ">
         <div className="w-1/4 max-sm:w-1/2 flex flex-col gap-6">
           <Image
+            data-aos="zoom-in"
             src={doris.workingPicture1}
             width={500}
             height={500}
@@ -16,6 +17,7 @@ export default async function ArtistGallery({ doris }) {
             draggable={false}
           />
           <Image
+            data-aos="zoom-in"
             src={doris.workingPicture2}
             width={500}
             height={500}
@@ -26,6 +28,7 @@ export default async function ArtistGallery({ doris }) {
         </div>
         <div className="w-2/4 max-sm:w-1/2 flex flex-col gap-6">
           <Image
+            data-aos="zoom-in"
             src={doris.workingPicture3}
             width={500}
             height={500}
@@ -36,6 +39,7 @@ export default async function ArtistGallery({ doris }) {
         </div>{" "}
         <div className="w-1/4 max-sm:hidden flex flex-col max-sm:flex-row gap-6">
           <Image
+            data-aos="zoom-in"
             src={doris.workingPicture4}
             width={500}
             height={500}
@@ -44,6 +48,7 @@ export default async function ArtistGallery({ doris }) {
             draggable={false}
           />
           <Image
+            data-aos="zoom-in"
             src={doris.workingPicture5}
             width={500}
             height={500}
@@ -55,6 +60,7 @@ export default async function ArtistGallery({ doris }) {
       </div>{" "}
       <div className="margin-x mt-6 w-full max-sm:flex hidden flex-col max-sm:flex-row gap-6">
         <Image
+          data-aos="zoom-in"
           src={doris.workingPicture4}
           width={500}
           height={500}

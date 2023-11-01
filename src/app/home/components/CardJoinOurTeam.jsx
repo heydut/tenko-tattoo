@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function CardJoinOurTeam() {
   const joinTags = ["Experienced", "Original", "Artist"];
   return (
-    <div className="flex flex-col gap-4 items-center">
+    <div data-aos="zoom-in-up" className="flex flex-col gap-4 items-center">
       <Link
         href="/join-our-team"
         className="w-full my-transition hover:scale-95 group flex flex-col items-center justify-center gap-6"

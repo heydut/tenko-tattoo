@@ -4,6 +4,10 @@ import TeamInstagramFeed from "./components/TeamInstagramFeed";
 import TeamTattoosAvailable from "./components/TeamTattoosAvailable";
 import { DataBackgrounds } from "@/data/DataBackgrounds";
 import PageHeader from "@/components/UI/PageHeader";
+import HomeTeam from "../home/components/HomeTeam";
+import CardArtist from "../home/components/CardArtist";
+import CardJoinOurTeam from "../home/components/CardJoinOurTeam";
+import { DataArtist } from "@/data/DataArtist";
 
 // ✨ //////////////////////////////
 
@@ -15,17 +19,20 @@ export const metadata = {
 
 // ✨ //////////////////////////////
 
-export default function Team() {
+export default function Artists() {
   return (
     <main className="relative">
       <PageBackground data={DataBackgrounds[8]} />
       <PageHeader
         title="Artists"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptatem voluptate quos dolorum quae voluptatibus quas."
+        text="Find more about our artists and their work. We are always looking for new talent to join our team. If you are interested in working with us, please contact us."
       />
-      <TeamHero />
-      <TeamInstagramFeed />
-      <TeamTattoosAvailable />
+      <div className="relative z-10 margin-x pb-24 max-sm:pb-16">
+        <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-lg:gap-6">
+          <CardArtist data={DataArtist[0]} />
+          <CardJoinOurTeam />
+        </div>
+      </div>
     </main>
   );
 }
