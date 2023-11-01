@@ -5,14 +5,6 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 // ✨ //////////////////////////////
 
-export const metadata = {
-  title: "Meet Dorisu Tattoo ✨",
-  description:
-    "Find more about Dorisu Tattoo, an artist from Tenko Tattoo | We are a Tatto Studio based in Preston, UK",
-};
-
-// ✨ //////////////////////////////
-
 export default function ArtistHero() {
   const doris = DataArtist[0];
   return (
@@ -35,6 +27,7 @@ export default function ArtistHero() {
                 height={700}
                 alt="Doris picture"
                 className="relative z-20 object-cover w-4/5 max-lg:w-full h-auto opacity-100"
+                draggable={false}
               />
               <div className="absolute h-[40%] w-auto mx-auto aspect-square bg-[#ed028c] rounded-full blur-[100px] animate-pulse" />
             </div>
@@ -58,6 +51,7 @@ export default function ArtistHero() {
             alt="Dorisu Logo"
             data-aos="zoom-out-down"
             className="h-auto w-3/5 max-lg:w-2/4 max-sm:w-3/4 object-cover max-lg:order-3"
+            draggable={false}
           />
 
           <p data-aos="zoom-out-up" className="max-lg:order-5">

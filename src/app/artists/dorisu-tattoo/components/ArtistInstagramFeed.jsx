@@ -1,50 +1,45 @@
-import Instagrampost from "@/components/UI/InstagramPost";
+import Btn from "@/components/UI/Btn";
+import Image from "next/image";
+import Link from "next/link";
+import Script from "next/script";
 
 // ✨ //////////////////////////////
 
-export default async function ArtistInstagramFeed() {
-  const instagram = await getInstagramPosts();
+export default async function ArtistInstagramFeed({ doris }) {
   return (
-    <div className="flex max-md:flex-col gap-4">
-      <div className="grid grid-cols-3 grid-rows-3 gap-4">
-        <div className="col-span-2 row-span-2">
-          <Instagrampost post={instagram.data[0]} />
-        </div>
-        <div className="col-start-3">
-          <Instagrampost post={instagram.data[1]} />
-        </div>
-        <div className="col-start-3 row-start-2">
-          <Instagrampost post={instagram.data[2]} />
-        </div>
-        <div className="row-start-3">
-          <Instagrampost post={instagram.data[3]} />
-        </div>
-        <div className="row-start-3">
-          <Instagrampost post={instagram.data[4]} />
-        </div>
-        <div className="row-start-3">
-          <Instagrampost post={instagram.data[5]} />
-        </div>
-      </div>
-      <div className="grid grid-cols-3 grid-rows-3 gap-4">
-        <div>
-          <Instagrampost post={instagram.data[6]} />
-        </div>
-        <div>
-          <Instagrampost post={instagram.data[7]} />
-        </div>
-        <div>
-          <Instagrampost post={instagram.data[8]} />
-        </div>
-        <div className="col-span-2 row-span-2">
-          <Instagrampost post={instagram.data[9]} />
-        </div>
-        <div className="col-start-3">
-          <Instagrampost post={instagram.data[10]} />
-        </div>
-        <div className="col-start-3 row-start-3">
-          <Instagrampost post={instagram.data[11]} />
-        </div>
+    <div className="">
+      <Script
+        src="https://static.elfsight.com/platform/platform.js"
+        data-use-service-core
+        defer
+      />
+      <div
+        className="elfsight-app-3df43858-5983-4dcd-9237-e64f98bd6594"
+        data-elfsight-app-lazy
+      ></div>
+      <div className="w-full flex justify-between mt-8">
+        <Link
+          href={doris.instagramURL}
+          target="_blank"
+          className="flex items-center gap-4"
+        >
+          <Image
+            src="/images/Instagram logo.webp"
+            width={50}
+            height={50}
+            alt="Instagram logo"
+            className="h-12 w-auto"
+          />
+          <p className="doris text-4xl hover:text-neutral-300 my-transition">
+            {doris.instagram}
+          </p>
+        </Link>
+        <Btn
+          text="Follow me"
+          href={doris.instagramURL}
+          target="blank_"
+          outline
+        />
       </div>
     </div>
   );

@@ -18,13 +18,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      {/* <body>
         <NextUI>
           <AOSinit />
           <ComingSoon />
         </NextUI>
-      </body>
-      {/* <body className="">
+      </body> */}
+      <body className="">
         <NextUI>
           <AOSinit />
           <NavBanner />
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </NextUI>
-      </body> */}
+      </body>
     </html>
   );
 }
