@@ -6,6 +6,7 @@ import AboutHistory from "./components/AboutHistory";
 import AboutWhyChooseUs from "./components/AboutWhyChooseUs";
 import PageHeader from "@/components/UI/PageHeader";
 import { DataBackgrounds } from "@/data/DataBackgrounds";
+import AboutCTA from "./components/AboutCTA";
 
 // ✨ //////////////////////////////
 
@@ -21,16 +22,13 @@ export default function About() {
   return (
     <main className="relative">
       <PageBackground data={DataBackgrounds[5]} />
-      <PageHeader
-        title="About us"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptatem voluptate quos dolorum quae voluptatibus quas."
-      />
-      PageAbout
+      <PageHeader title="About us" text="" />
       <AboutHero />
       <AboutHistory />
       <AboutWhyChooseUs />
-      {/* <HomeTeam /> */}
       <AboutCTASocial />
+      <HomeTeam small />
+      <AboutCTA />
     </main>
   );
 }

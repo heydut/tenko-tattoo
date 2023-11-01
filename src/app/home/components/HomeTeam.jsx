@@ -7,11 +7,12 @@ import PageHeader from "@/components/UI/PageHeader";
 
 // ✨ //////////////////////////////
 
-export default function HomeTeam() {
+export default function HomeTeam({ small }) {
   return (
     <main>
       <section className="relative z-20 bg-neutral-900/70">
         <PageHeader
+          small={small}
           title="Meet our artists"
           text="Find more about our artists and their work. We are always looking for new talent to join our team. If you are interested in working with us, please contact us.
           "

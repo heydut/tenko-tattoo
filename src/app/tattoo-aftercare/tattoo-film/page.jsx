@@ -20,7 +20,7 @@ export default function TattooFilm() {
         <div className="mt-4 flex flex-col items-center text-center">
           <h1>Aftercare</h1>
           <h1>Tattoo Film</h1>
-          <div className="h-1 w-20 mt-4 bg-[#ed028c] rounded-full" />
+          <div className="h-1 w-20 mt-4 bg-[#ed028c]" />
         </div>
         <div className="h-[500px]" />
       </div>

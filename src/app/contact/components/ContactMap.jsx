@@ -32,7 +32,7 @@ export default function ContactMap() {
           <div className="w-1/2 max-md:w-full pl-20 pr-10 max-lg:pl-10 max-lg:pr-5 max-md:pr-0 max-md:pl-0 space-y-10">
             <div className="flex flex-col">
               <h2 className="font-bold">Get in touch</h2>
-              <div className="h-1 w-20 mt-4 bg-[#ed028c] rounded-full" />
+              <div className="h-1 w-20 mt-4 bg-[#ed028c]" />
             </div>
             <p className="">
               Proin volutpat consequat porttitor cras nullam gravida at. Orci

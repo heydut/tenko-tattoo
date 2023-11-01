@@ -17,7 +17,7 @@ export default function ContactFAQ() {
           <br className="max-md:hidden" />
           <span className="">Questions</span>
         </h2>
-        <div className="h-1 w-20 mt-4 bg-[#ed028c] rounded-full" />
+        <div className="h-1 w-20 mt-4 bg-[#ed028c]" />
       </div>
 
       <div
