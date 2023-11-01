@@ -10,7 +10,7 @@ import {
 export default function ContactMap() {
   return (
     <div className="py-24 max-sm:py-16 max-md:pt-0 max-sm:pt-0">
-      <main className="relative w-full border-t border-b border-neutral-500">
+      <main className="relative w-full border-t border-b border-neutral-500/50">
         <div
           data-aos="zoom-in-up"
           className="absolute z-10 w-1/2 max-md:w-full h-full max-md:h-96 top-0 left-0 max-md:bottom-0 max-md:top-auto"

@@ -9,7 +9,7 @@ export default function ArtistHero() {
   const doris = DataArtist[0];
   return (
     <>
-      <div className="w-full flex max-lg:flex-col items-center">
+      <div className="margin-x margin-y w-full flex max-lg:flex-col items-center">
         <div className="max-lg:w-full max-lg:items-center max-lg:text-center w-1/2 flex flex-col items-start gap-10">
           <section data-aos="zoom-out-down" className="max-lg:hidden">
             <h5 className="text-[#ed028c] font-black mt-4">

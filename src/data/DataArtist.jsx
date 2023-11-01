@@ -1,6 +1,6 @@
 export const DataArtist = [
   {
-    name: "Doris",
+    name: "Dorisu",
     artistPage: "/artists/dorisu-tattoo",
     image: "/images/artists/Doris picture.png",
     logo: "/images/logos/Dorisu (white).svg",
@@ -11,5 +11,10 @@ export const DataArtist = [
     phone: "0123456789",
     email: "dorisu@tenkotattoo.com",
     tags: ["Cute", "Neo-traditional", "Pop Culture"],
+    workingPicture1: "/images/artists/Example3.png",
+    workingPicture2: "/images/artists/Example1.png",
+    workingPicture3: "/images/artists/Example2.png",
+    workingPicture4: "/images/artists/Example3.png",
+    workingPicture5: "/images/artists/Example1.png",
   },
 ];

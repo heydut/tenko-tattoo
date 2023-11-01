@@ -7,7 +7,17 @@ import Script from "next/script";
 
 export default async function ArtistInstagramFeed({ doris }) {
   return (
-    <div className="">
+    <div className="margin-y margin-x flex flex-col items-center gap-16 max-sm:gap-12">
+      <div className="w-full flex flex-wrap justify-between max-sm:justify-center items-center gap-6">
+        {" "}
+        <h1 className="">TATTOOS BY {doris.name}</h1>
+        <Btn
+          text="Check more"
+          href={doris.instagramURL}
+          target="blank_"
+          outline
+        />
+      </div>
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
@@ -17,30 +27,6 @@ export default async function ArtistInstagramFeed({ doris }) {
         className="elfsight-app-3df43858-5983-4dcd-9237-e64f98bd6594"
         data-elfsight-app-lazy
       ></div>
-      <div className="w-full flex justify-between mt-8">
-        <Link
-          href={doris.instagramURL}
-          target="_blank"
-          className="flex items-center gap-4"
-        >
-          <Image
-            src="/images/Instagram logo.webp"
-            width={50}
-            height={50}
-            alt="Instagram logo"
-            className="h-12 w-auto"
-          />
-          <p className="doris text-4xl hover:text-neutral-300 my-transition">
-            {doris.instagram}
-          </p>
-        </Link>
-        <Btn
-          text="Follow me"
-          href={doris.instagramURL}
-          target="blank_"
-          outline
-        />
-      </div>
     </div>
   );
 }
