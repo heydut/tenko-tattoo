@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default async function ArtistGallery({ doris }) {
   return (
-    <div className="margin-y border-t border-b border-neutral-500/50 ">
+    <div className="margin-y border-t border-b border-neutral-500/50">
       <div className="margin-x flex gap-6 ">
-        <div className="w-1/4 max-sm:w-1/2 flex flex-col gap-6">
+        <div className="w-1/4 max-sm:w-1/2 flex flex-col gap-6 ">
           <Image
             data-aos="zoom-in"
             src={doris.workingPicture1}

@@ -13,7 +13,7 @@ export const DataArtist = [
     tags: ["Cute", "Neo-traditional", "Pop Culture"],
     workingPicture1: "/images/artists/Example3.png",
     workingPicture2: "/images/artists/Example1.png",
-    workingPicture3: "/images/artists/Example2.png",
+    workingPicture3: "/images/artists/DorisShowcase1.png",
     workingPicture4: "/images/artists/Example3.png",
     workingPicture5: "/images/artists/Example1.png",
   },

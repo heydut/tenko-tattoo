@@ -21,11 +21,11 @@ export default function Home() {
     <main>
       <HomeHero />
       <HomeAbout />
-      <HomeServices />
+      {/* <HomeServices /> */}
       <HomeTeam />
       <HomeGallery />
       <HomeVideo />
-      <HomeTestimonial />
+      {/* <HomeTestimonial /> */}
       <HomeCTASocial />
     </main>
   );

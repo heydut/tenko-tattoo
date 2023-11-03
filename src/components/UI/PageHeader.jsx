@@ -39,16 +39,18 @@ export default function PageHeader({
 
         <div className="h-1 w-20 mt-4 bg-[#ed028c]" />
       </div>
-      <p
-        data-aos="zoom-in-up"
-        className={`w-1/2 max-lg:w-2/3 max-md:w-full ${
-          sided ? "" : "text-center"
-        }
+      {text && (
+        <p
+          data-aos="zoom-in-up"
+          className={`w-1/2 max-lg:w-2/3 max-md:w-full ${
+            sided ? "" : "text-center"
+          }
         
         `}
-      >
-        {text}
-      </p>
+        >
+          {text}
+        </p>
+      )}
     </div>
   );
 }

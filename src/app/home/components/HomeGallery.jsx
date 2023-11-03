@@ -9,18 +9,20 @@ import Image from "next/image";
 import { DataGallery } from "@/data/DataGallery";
 import Link from "next/link";
 import Btn from "@/components/UI/Btn";
+import PageHeader from "@/components/UI/PageHeader";
 
 // ✨ //////////////////////////////
 
 export default function HomeGallery() {
   return (
     <main className="relative z-20 bg-neutral-900">
-      <div className="margin-x margin-y">
+      <PageHeader title1="Check out some" title2="of our work" sided />
+      <div data-aos="zoom-in" className="margin-x">
         <Swiper
           spaceBetween={30}
           freeMode={true}
           autoplay={{
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           pagination={{
