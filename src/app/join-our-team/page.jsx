@@ -1,6 +1,9 @@
 import PageBackground from "@/components/UI/PageBackground";
 import PageHeader from "@/components/UI/PageHeader";
 import { DataBackgrounds } from "@/data/DataBackgrounds";
+import JoinUsHero from "./components/JoinUsHero";
+import JoinUsReasons from "./components/JoinUsReasons";
+import JoinUsForm from "./components/JoinUsForm";
 
 // ✨ //////////////////////////////
 
@@ -20,7 +23,9 @@ export default function JoinOurTeam() {
         title="Join our team"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptatem voluptate quos dolorum quae voluptatibus quas."
       />
-      <div className="h-[200vh]" />
+      <JoinUsHero />
+      <JoinUsReasons />
+      <JoinUsForm />
     </main>
   );
 }

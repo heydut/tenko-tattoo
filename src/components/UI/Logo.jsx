@@ -18,6 +18,7 @@ export default function Logo({ black, css }) {
           height={400}
           className={`object-cover ${css} w-auto select-none`}
           draggable={false}
+          priority
         />
       </Link>
     </main>
