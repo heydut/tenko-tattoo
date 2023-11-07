@@ -32,7 +32,7 @@ export default function AboutWhyChooseUs() {
   ];
 
   return (
-    <main className="border border-neutral-400/50 ">
+    <main className="border-y border-neutral-400/50 ">
       <PageHeader
         title="Why our studio?"
         text="Still not convinced? Here are some reasons why you should choose us."

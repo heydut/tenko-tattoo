@@ -2,7 +2,7 @@
 
 export default function HomeVideo() {
   return (
-    <main className="relative z-20 bg-neutral-900 margin-y">
+    <main className="relative z-20 bg-neutral-900 pt-24 max-sm:pt-16">
       <iframe
         data-aos="zoom-in-up"
         width="560"

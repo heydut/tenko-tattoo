@@ -4,6 +4,7 @@ import { DataBackgrounds } from "@/data/DataBackgrounds";
 import JoinUsHero from "./components/JoinUsHero";
 import JoinUsReasons from "./components/JoinUsReasons";
 import JoinUsForm from "./components/JoinUsForm";
+import JoinUsAbout from "./components/JoinUsAbout";
 
 // ✨ //////////////////////////////
 
@@ -18,12 +19,10 @@ export const metadata = {
 export default function JoinOurTeam() {
   return (
     <main className="relative">
-      <PageBackground data={DataBackgrounds[3]} />
-      <PageHeader
-        title="Join our team"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptatem voluptate quos dolorum quae voluptatibus quas."
-      />
+      <PageBackground data={DataBackgrounds[0]} />
+      <PageHeader title="Join our team" />
       <JoinUsHero />
+      <JoinUsAbout />
       <JoinUsReasons />
       <JoinUsForm />
     </main>

@@ -1,13 +1,22 @@
 // ✨ //////////////////////////////
 
+import Image from "next/image";
+
 export default function JoinUsHero() {
   return (
-    <main className="relative z-20">
-      Join us Hero <br />
-      Are you an experienced tattoo artist who has built a loyal customer base?
-      Do you pride yourself on creating unique and original designs in your own
-      style? If you're enthusiastic about working alongside like-minded artists,
-      Tenko Tattoo is for you!
+    <main
+      data-aos="zoom-in-up"
+      className="margin-x h-[500px] max-md:h-[400px] relative z-20 flex flex-col gap-20"
+    >
+      <Image
+        src="/images/artists/MK108A23M8_2.png"
+        width={1500}
+        height={1000}
+        alt="Studio picture"
+        className="absolute top-0 left-0 w-full h-full object-cover select-none"
+        draggable={false}
+        priority
+      />
     </main>
   );
 }
