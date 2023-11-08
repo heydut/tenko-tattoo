@@ -6,13 +6,13 @@ import Image from "next/image";
 
 export default function JoinUsForm() {
   return (
-    <div className="margin-y">
-      <div className="-mb-32 max-md:hidden">
+    <div className=" pb-24 max-sm:pb-16">
+      {/* <div className="-mb-32 max-md:hidden">
         <PageHeader title1="Join our" title2="team" sided />
       </div>
       <div className="md:hidden -mb-6">
         <PageHeader title="Join our team" />
-      </div>
+      </div> */}
       <main className="relative w-full">
         <div
           data-aos="zoom-in"

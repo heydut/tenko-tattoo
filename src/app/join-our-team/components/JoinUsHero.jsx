@@ -6,7 +6,7 @@ export default function JoinUsHero() {
   return (
     <main
       data-aos="zoom-in-up"
-      className="margin-x h-[500px] max-md:h-[400px] relative z-20 flex flex-col gap-20"
+      className="margin-x h-[500px] max-md:h-[300px] relative z-20 flex flex-col gap-20"
     >
       <Image
         src="/images/artists/MK108A23M8_2.png"

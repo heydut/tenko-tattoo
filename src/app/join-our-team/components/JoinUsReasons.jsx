@@ -1,36 +1,58 @@
+import Image from "next/image";
+import {
+  BanknotesIcon,
+  ChatBubbleOvalLeftEllipsisIcon,
+  ClipboardDocumentListIcon,
+  HeartIcon,
+  MegaphoneIcon,
+  PencilSquareIcon,
+  SparklesIcon,
+  TrashIcon,
+  UserGroupIcon,
+} from "@heroicons/react/24/outline";
+import PageHeader from "@/components/UI/PageHeader";
+import PageBackground from "@/components/UI/PageBackground";
+import { DataBackgrounds } from "@/data/DataBackgrounds";
+
 // ✨ //////////////////////////////
 
-import Image from "next/image";
-
 export default function JoinUsReasons() {
-  const reasons = [
+  const features = [
     {
-      title: "Highly Competitive % Rates",
+      name: "Highly Competitive % Rates",
       description: "Increase your earnings.",
+      icon: BanknotesIcon,
     },
     {
-      title: "Studio-Managed Diary",
+      name: "Studio-Managed Diary",
       description: "Focus on your art; we manage the logistics.",
+      icon: ClipboardDocumentListIcon,
     },
     {
-      title: "Dedicated Marketing",
+      name: "Dedicated Marketing",
       description:
         "Benefit from a robust marketing strategy conducted by a professional agency.",
+      icon: MegaphoneIcon,
     },
     {
-      title: "Conventions & Exposure",
+      name: "Conventions & Exposure",
       description:
         "Opportunity to represent yourself and Tenko Tattoo at conventions. Transport covered!",
+      icon: UserGroupIcon,
     },
     {
-      title: "Merch Perks",
+      name: "Merch Perks",
       description: "Discounted production costs for your custom merchandise.",
+      icon: SparklesIcon,
     },
   ];
   return (
     <main className="relative z-20">
-      <section className="margin-x flex gap-6">
-        <div className="w-1/4 flex flex-col gap-6">
+      <section className="margin-x flex max-md:flex-col gap-6 max-md:gap-20">
+        <div
+          data-aos="zoom-in-up"
+          className="w-1/4 max-md:w-full flex flex-col gap-6"
+        >
           <Image
             src="/Tattoo Studio/1.png"
             width={500}
@@ -45,35 +67,33 @@ export default function JoinUsReasons() {
             height={500}
             alt="Studio picture"
             draggable={false}
-            className="object-cover h-32 w-full opacity-70 hover:opacity-100 my-transition hover:scale-95"
+            className="object-cover h-32 w-full opacity-70 hover:opacity-100 my-transition hover:scale-95 max-md:hidden"
           />
         </div>
-        <div className="w-2/4 flex flex-col gap-6">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37719.5303428088!2d-2.7295957502441417!3d53.78111044702643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0ccb0b7b3c4d%3A0xd68703fb79b28721!2sPreston!5e0!3m2!1sen!2suk!4v1699374858603!5m2!1sen!2suk"
-            width="100%"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            className="h-full opacity-70 hover:opacity-100 my-transition p-4 border border-neutral-500 hover:border-neutral-400 hover:scale-95"
-          />
-          <p className="text-center text-lg leading-9">
-            Located in the vibrant heart of Preston, UK,{" "}
-            <span className="font-medium text-white">
-              Tenko Tattoo is on the lookout for skilled artists to join our
-              esteemed studio
-            </span>
-            , with opportunities to also represent us at tattoo conventions.
-          </p>
-        </div>
-        <div className="w-1/4 flex flex-col gap-6">
+        <div
+          data-aos="zoom-in-up"
+          className="w-2/4 max-md:w-full flex flex-col gap-6 "
+        >
           <Image
             src="/Tattoo Studio/1.png"
             width={500}
             height={500}
             alt="Studio picture"
             draggable={false}
-            className="object-cover h-32 w-full opacity-70 hover:opacity-100 my-transition hover:scale-95"
+            className="object-cover h-full w-full opacity-70 hover:opacity-100 my-transition hover:scale-95"
+          />
+        </div>
+        <div
+          data-aos="zoom-in-up"
+          className="w-1/4 max-md:w-full flex flex-col gap-6"
+        >
+          <Image
+            src="/Tattoo Studio/1.png"
+            width={500}
+            height={500}
+            alt="Studio picture"
+            draggable={false}
+            className="object-cover h-32 w-full opacity-70 hover:opacity-100 my-transition hover:scale-95 max-md:hidden"
           />
           <Image
             src="/Tattoo Studio/1.png"
@@ -85,8 +105,53 @@ export default function JoinUsReasons() {
           />{" "}
         </div>
       </section>
-      <section className="margin-x">
-        <p>asdasdasd</p>
+      <section className="relative">
+        <div className="relative z-20 margin-y py-24 max-sm:py-16">
+          <div className="margin-x ">
+            <div className="flex max-lg:flex-col max-lg:gap-16 items-end max-lg:items-center ">
+              <div className="w-1/2 max-lg:hidden">
+                <PageHeader
+                  title1="Why join"
+                  title2="Tenko Tatoo?"
+                  sided
+                  noMargin
+                />
+              </div>{" "}
+              <div className="lg:hidden">
+                <PageHeader title1="Why join" title2="Tenko Tatoo?" noMargin />
+              </div>
+              <p
+                data-aos="zoom-in-up"
+                className="w-1/2 max-lg:w-full text-right max-lg:text-center"
+              >
+                Located in the vibrant heart of Preston, UK,{" "}
+                <span className="font-medium text-white">
+                  Tenko Tattoo is on the lookout for skilled artists to join our
+                  esteemed studio
+                </span>
+                , with opportunities to also represent us at tattoo conventions.
+              </p>
+            </div>
+            <div className="w-full mt-16 grid grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 ">
+              {features.map((feature) => (
+                <div
+                  data-aos="zoom-in-up"
+                  key={feature.name}
+                  className="relative pl-9"
+                >
+                  <div className="flex items-center">
+                    <feature.icon
+                      className="absolute left-1 top-1 h-5 w-5 text-[#ed028c]"
+                      aria-hidden="true"
+                    />
+                    <p className="font-medium text-white">{feature.name}</p>
+                  </div>{" "}
+                  <p>{feature.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );

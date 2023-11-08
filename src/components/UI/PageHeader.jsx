@@ -7,12 +7,13 @@ export default function PageHeader({
   title1,
   title2,
   small,
+  noMargin,
 }) {
   return (
     <div
-      className={`relative z-20 margin-x margin-y flex flex-col ${
-        sided ? "" : "items-center"
-      } gap-10`}
+      className={`relative z-20  flex flex-col
+      ${noMargin ? "" : "margin-x margin-y"}
+       ${sided ? "" : "items-center"} gap-10`}
     >
       <div
         data-aos="zoom-in"

@@ -9,7 +9,7 @@ export default function HomeVideo() {
         height="315"
         src="https://www.youtube.com/embed/DxR9eauTK1I?autoplay=1&loop=1&showinfo=0&controls=0&autohid=1"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
+        allowFullScreenreen
         className="h-[100vh] w-full opacity-50"
       ></iframe>
     </main>

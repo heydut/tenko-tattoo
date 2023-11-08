@@ -18,7 +18,7 @@ export default function ContactMap() {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2358.737578041351!2d-2.7039709999999997!3d53.758555699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b727afa2e7683%3A0xc3969a5205dc2182!2s4-6%2C%204-6%20Fox%20St%2C%20Preston%20PR1%202AB!5e0!3m2!1sen!2suk!4v1698746571582!5m2!1sen!2suk"
             width="100%"
-            allowfullscreen=""
+            allowFullScreenreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             className="h-full max-md:h-96"
