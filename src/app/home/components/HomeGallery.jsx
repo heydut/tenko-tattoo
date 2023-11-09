@@ -10,10 +10,12 @@ import { DataGallery } from "@/data/DataGallery";
 import Link from "next/link";
 import Btn from "@/components/UI/Btn";
 import PageHeader from "@/components/UI/PageHeader";
+import useWindowSize from "../../../../hooks/useWindowSize";
 
 // ✨ //////////////////////////////
 
 export default function HomeGallery() {
+  const size = useWindowSize();
   return (
     <main className="relative z-20 bg-neutral-900">
       <PageHeader title1="Check out some" title2="of our work" sided />
@@ -30,7 +32,7 @@ export default function HomeGallery() {
           }}
           modules={[FreeMode, Pagination, Autoplay]}
           className="mySwiper"
-          slidesPerView={4}
+          slidesPerView={size?.sm ? 1 : size?.md ? 2 : size?.lg ? 3 : 4}
         >
           {DataGallery.map((item, i) => (
             <SwiperSlide key={i}>
