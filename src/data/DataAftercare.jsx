@@ -2,7 +2,7 @@ export const DataAftercare = [
   {
     name: "Cling Film",
     href: "/tattoo-aftercare/cling-film",
-    resume: "Lorem ips um dolor sit amet, consectetur adipiscing elit.",
+    resume: "Instructions for the cling film aftercare method.",
     instructions: [
       {
         name: "Preparation",
@@ -22,7 +22,7 @@ export const DataAftercare = [
       {
         name: "Moisturising",
         description:
-          "Apply a thin layer of aftercare cream. We recommend Palmers Cocoa Butter, Hustle Butter, or Bepanthen. Avoid over-moisturising, as this can clog pores and cause spots around the tattoo.",
+          "Apply a thin layer of aftercare cream. We recommend Palmers Cocoa Butter or yayo aftercare balm. Avoid over-moisturising, as this can clog pores and cause spots around the tattoo.",
       },
       {
         name: "Re-Wrapping",
@@ -43,7 +43,7 @@ export const DataAftercare = [
   {
     name: "Tattoo Film",
     href: "/tattoo-aftercare/tattoo-film",
-    resume: "Lorem ips um dolor sit amet, consectetur adipiscing elit.",
+    resume: "Instructions for the tattoo film aftercare method.",
     instructions: [
       {
         name: "Initial Removal",
@@ -53,12 +53,12 @@ export const DataAftercare = [
       {
         name: "Cleaning and Drying",
         description:
-          "Gently wash away plasma and ink and pat dry with a clean, unused towel.",
+          "Gently wash away plasma and ink and pat dry with a clean, unused towel. ",
       },
       {
         name: "New Sheet Application",
         description:
-          "Peel off sides labelled '1' and '2' from the TattooMed sheet. Place onto the tattoo, leaving approximately an inch around the tattoo for potential leakage. Peel off sides labelled '3' and '4', smoothing out any air bubbles.",
+          "Remove the thin back strip (side with the grids) and part of the larger backing. Place onto the tattoo, leaving at least an inch around the tattoo for potential leakage. Peel off sides with the green arrows, smoothing out any air bubbles.",
       },
       {
         name: "Duration",
@@ -68,7 +68,7 @@ export const DataAftercare = [
       {
         name: "Post-Film Care",
         description:
-          "After removal of the film, continue to moisturise the tattoo with recommended aftercare creams such as Palmers Cocoa Butter, Hustle Butter, or Bepanthen.",
+          "After removal of the film, continue to moisturise the tattoo with recommended aftercare creams such as Palmers Cocoa Butter or yayo aftercare.",
       },
     ],
     important: [
@@ -79,53 +79,53 @@ export const DataAftercare = [
       },
     ],
   },
-  {
-    name: "Alternative solutions",
-    href: "/tattoo-aftercare/alternative-solutions",
-    resume: "Lorem ips um dolor sit amet, consectetur adipiscing elit.",
-    instructions: [
-      {
-        name: "Alternative example",
-        description:
-          "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
-      },
-      {
-        name: "Alternative example",
-        description:
-          "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
-      },
-      {
-        name: "Alternative example",
-        description:
-          "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
-      },
-      {
-        name: "Alternative example",
-        description:
-          "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
-      },
-      {
-        name: "Alternative example",
-        description:
-          "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
-      },
-      {
-        name: "Alternative example",
-        description:
-          "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
-      },
-      {
-        name: "Alternative example",
-        description:
-          "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
-      },
-    ],
-    important: [
-      {
-        name: "Reaction to Tattoo Film",
-        description:
-          "If you experience a reaction to the tattoo film, remove it in the shower and revert to the standard cling film aftercare method.",
-      },
-    ],
-  },
+  // {
+  //   name: "Alternative solutions",
+  //   href: "/tattoo-aftercare/alternative-solutions",
+  //   resume: "Lorem ips um dolor sit amet, consectetur adipiscing elit.",
+  //   instructions: [
+  //     {
+  //       name: "Alternative example",
+  //       description:
+  //         "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
+  //     },
+  //     {
+  //       name: "Alternative example",
+  //       description:
+  //         "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
+  //     },
+  //     {
+  //       name: "Alternative example",
+  //       description:
+  //         "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
+  //     },
+  //     {
+  //       name: "Alternative example",
+  //       description:
+  //         "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
+  //     },
+  //     {
+  //       name: "Alternative example",
+  //       description:
+  //         "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
+  //     },
+  //     {
+  //       name: "Alternative example",
+  //       description:
+  //         "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
+  //     },
+  //     {
+  //       name: "Alternative example",
+  //       description:
+  //         "Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.",
+  //     },
+  //   ],
+  //   important: [
+  //     {
+  //       name: "Reaction to Tattoo Film",
+  //       description:
+  //         "If you experience a reaction to the tattoo film, remove it in the shower and revert to the standard cling film aftercare method.",
+  //     },
+  //   ],
+  // },
 ];

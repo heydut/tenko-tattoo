@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body>
         <NextUI>
           <AOSinit />
-          <ComingSoon />
+          {children}
         </NextUI>
       </body>
       {/* <body className="">

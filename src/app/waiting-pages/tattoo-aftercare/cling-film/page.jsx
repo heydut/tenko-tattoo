@@ -12,15 +12,15 @@ export default function ClingFilm() {
     <main className="relative">
       <PageBackground data={DataBackgrounds[0]} />
       <PageHeader title1="AFTERCARE" title2="CLING FILM" />
-      <div className="relative z-20 margin-x flex flex-col gap-20 items-center mb-20">
-        {/* <p data-aos="zoom-in-up" className="text-center">
+      <div className="relative z-20 margin-x flex flex-col gap-20 items-center">
+        <p data-aos="zoom-in-up" className="text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tellus
           elementum sagittis vitae et leo duis. Iaculis nunc sed augue lacus
           viverra vitae congue eu. Nunc lobortis mattis aliquam faucibus purus
           in massa. Maecenas pharetra convallis posuere morbi leo urna molestie
           at elementum. Libero enim sed faucibus turpis in eu mi.
-        </p> */}
+        </p>
         <div className="w-full">
           <div className="flex flex-col gap-6">
             {DataAftercare[0].instructions.map((item, i) => (

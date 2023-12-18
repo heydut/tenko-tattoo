@@ -21,10 +21,10 @@ export default function TattooAftercare() {
       <PageBackground data={DataBackgrounds[9]} />
       <PageHeader
         title="Tattoo aftercare"
-        text="Here are some tips to take care of your tattoo after getting it done. If you have any questions, please contact us info@tenkotattoo.com. We will be happy to help you."
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptatem voluptate quos dolorum quae voluptatibus quas."
       />
       <div className="relative z-20 margin-x flex flex-col items-center justify-center gap-20">
-        <div className="w-full grid gap-10 grid-cols-2 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
+        <div className="w-full grid gap-10 grid-cols-3 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
           {DataAftercare.map((item, i) => (
             <div
               data-aos="zoom-in-up"
@@ -51,7 +51,7 @@ export default function TattooAftercare() {
           ))}
         </div>
       </div>
-      {/* <p
+      <p
         data-aos="zoom-in-up"
         className="relative z-20 margin-x margin-y text-center"
       >
@@ -67,7 +67,7 @@ export default function TattooAftercare() {
         Sed enim ut sem viverra. Amet consectetur adipiscing elit duis tristique
         sollicitudin nibh sit amet. Viverra aliquet eget sit amet tellus cras
         adipiscing.
-      </p> */}
+      </p>
     </main>
   );
 }
