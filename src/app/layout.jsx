@@ -10,7 +10,7 @@ import ComingSoon from "./ComingSoon";
 
 export const metadata = {
   title: "Tenko Tattoo",
-  description: "Tenko Tattoo | We are a Tatto Studio based in Preston, UK",
+  description: "Tenko Tattoo | We are a Tattoo Studio based in Preston, UK",
 };
 
 // ✨ //////////////////////////////
